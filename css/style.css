@@ -10,7 +10,8 @@
 header {
     padding: 20px 0 20px 10px;
     margin: -8px -8px 0 -8px;
-    background-color: crimson;
+    /*background-color: #379683;*/
+    background-color: #2E1114;
     color: white;
     font-size: 2.6em;
 }
@@ -22,7 +23,7 @@ footer {
     bottom: -8px;
     min-width: 100%;
     min-height: 50px;
-    background-color: grey;
+    background-color: #83677B;
     color: white;
     text-align: center;
 }
@@ -38,7 +39,7 @@ article {
 /* Set Heading Styling */
 
 h1 {
-    color: crimson;
+    color: #2E1114;
     margin-top: 40px;
     margin-bottom: 20px;
     font-size: 2.2em;
@@ -46,6 +47,7 @@ h1 {
 }
 
 h2 {
+    color: #501b1d;
     font-size: 1.6em;
     font-weight: 400;
 }
@@ -63,7 +65,7 @@ table > caption {
     width: 100%;
     font-size: 1.5em;
     margin-bottom: 20px;
-    color: crimson;
+    color: #2E1114;
 }
 
 thead {
@@ -78,7 +80,7 @@ tbody {
 th {
     height: 40px;
     text-align: left;
-    background-color: crimson;
+    background-color: #2E1114;
     color: white;
     font-weight: 100;
 }
@@ -88,23 +90,28 @@ td {
     vertical-align: center;
 }
 
+tr > td:nth-child(2n) {
+    font-style: italic;
+}
+
 tr.important {
-    background-color: crimson;
+    background-color: #501b1d;
     color: white;
 }
 
 tr.important:hover {
-    background-color: crimson;
+    background-color: #501b1d;
     color: white;
 }
 
 th, td {
     padding-left: 15px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #ADADAD;
 }
 
 tbody > tr:hover {
-    background-color: lightgrey;
+    background-color: #83677B;
+    color: #FFF;
 }
 
 tbody > tr > td:first-child, tbody > tr > td:nth-child(2n) {
@@ -114,7 +121,7 @@ tbody > tr > td:first-child, tbody > tr > td:nth-child(2n) {
 tfoot {
     font-size: 0.9em;
     font-style: italic;
-    background: crimson;
+    background: #2E1114;
     color: white;
 }
 
