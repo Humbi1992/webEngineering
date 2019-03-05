@@ -2,7 +2,135 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <style>
+    /* Import Google Fonts */
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+    /* Set default font */
+    * {
+      font-family: 'Karla', sans-serif;
+    }
+
+    /* Default Settings */
+    header {
+      padding: 20px 0 20px 10px;
+      margin: -8px -8px 0 -8px;
+      /*background-color: #379683;*/
+      background-color: #2E1114;
+      color: white;
+      font-size: 2.6em;
+    }
+
+    footer {
+      position: relative;
+      margin: -8px;
+      left: 0;
+      bottom: -8px;
+      min-width: 100%;
+      min-height: 50px;
+      background-color: #83677B;
+      color: white;
+      text-align: center;
+    }
+
+    address {
+      font-weight: 100;
+    }
+
+    article {
+      margin-bottom: 80px;
+    }
+
+    /* Set Heading Styling */
+
+    h1 {
+      color: #2E1114;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-size: 2.2em;
+      font-weight: 400;
+    }
+
+    h2 {
+      color: #501b1d;
+      font-size: 1.6em;
+      font-weight: 400;
+    }
+
+    /* Table Styling */
+
+    table {
+      margin-left: 60px;
+      margin-right: auto;
+      width: 60%;
+      border-collapse: collapse;
+    }
+
+    table > caption {
+      width: 100%;
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      color: #2E1114;
+    }
+
+    thead {
+      font-size: 1.4em;
+    }
+
+    tbody {
+      font-size: 1.2em;
+      font-weight: 100;
+    }
+
+    th {
+      height: 40px;
+      text-align: left;
+      background-color: #2E1114;
+      color: white;
+      font-weight: 100;
+    }
+
+    td {
+      height: 30px;
+      vertical-align: center;
+    }
+
+    tr > td:nth-child(2n) {
+      font-style: italic;
+    }
+
+    tr.important {
+      background-color: #501b1d;
+      color: white;
+    }
+
+    tr.important:hover {
+      background-color: #501b1d;
+      color: white;
+    }
+
+    th, td {
+      padding-left: 15px;
+      border-bottom: 1px solid #ADADAD;
+    }
+
+    tbody > tr:hover {
+      background-color: #83677B;
+      color: #FFF;
+    }
+
+    tbody > tr > td:first-child, tbody > tr > td:nth-child(2n) {
+      width: 20%;
+    }
+
+    tfoot {
+      font-size: 0.9em;
+      font-style: italic;
+      background: #2E1114;
+      color: white;
+    }
+
+  </style>
   <title>Storybook for the Web Engineering Module</title>
 </head>
 <body>
